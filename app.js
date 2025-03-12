@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use('/images', express.static(path.join(__dirname, 'uploads')));
 
-
+//changes
 
 const connectDB = async () => {
 
